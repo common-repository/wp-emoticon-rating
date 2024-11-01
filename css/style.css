@@ -1,0 +1,63 @@
+
+#emoticon-container {
+    height: 40px;
+    width: 100%;
+    min-width:260px;
+}
+#emoticon-container ul {
+    margin: 0;
+    padding: 0;
+}
+#emoticon-container .emo-icon {
+   background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    padding: 4px;
+    width: 30px;
+}
+#emoticon-container li {
+    display: inline-block;
+    list-style: outside none none;
+    border-radius: 8px;
+    position: relative;
+	box-sizing: unset;
+}
+#smile {
+    background-image: url("../images/smile.png");
+}
+#naughty-smile {
+    background-image: url("../images/naughty-smile.png");
+}
+#shocked {
+    background-image: url("../images/shocked.png");
+}
+#sad {
+    background-image: url("../images/sad.png");
+}
+#lough {
+    background-image: url("../images/lough.png");
+}
+#cry {
+    background-image: url("../images/cry.png");
+}
+#chive {
+    background-image: url("../images/chive.png");
+}
+#angry {
+    background-image: url("../images/angry.png");
+}
+#heart {
+    background-image: url("../images/heart.png");
+}
+.emo-icon:hover {
+    background-color: #ffe0b3;
+    cursor: pointer;
+}
+.emo-icon > span {
+    position: absolute;
+    font-size: 9px;
+    right: 2px;
+    color: #630;
+    bottom: 0px;
+}
